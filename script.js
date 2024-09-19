@@ -1,5 +1,13 @@
 function shortcut(s1, s2) {
   // your code here
+	let newstr = "";
+	if(s1.length > 0 && s2.length > 0){
+		return s1.charAt(0) + s2.charAt(0);
+	}
+
+	else{
+		return '';
+	}
 }
 
 // Do not change the code below.
